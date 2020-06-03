@@ -11,18 +11,19 @@
         android:id="@+id/memo_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:background="#92A8D1"
+        android:background="@color/Toolbar_background"
         app:titleTextColor="@android:color/white" />
 
     <EditText
         android:id="@+id/Title_Edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
         android:gravity="start"
         android:hint="제목을 입력하세요..."
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:theme="@style/MtItemFont" />
 
     <ScrollView
         android:id="@+id/EditScroll"
@@ -32,12 +33,13 @@
         <EditText
             android:id="@+id/Content_Edit"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="#00FFFFFF"
             android:gravity="start"
             android:hint="여행 일정을 입력하세요..."
-            android:inputType="textMultiLine" />
+            android:inputType="textMultiLine"
+            android:theme="@style/MtItemFont" />
 
     </ScrollView>
 

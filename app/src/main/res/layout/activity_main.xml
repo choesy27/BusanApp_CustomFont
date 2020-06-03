@@ -18,7 +18,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#92A8D1"
+            android:background="@color/Toolbar_background"
             android:elevation="4dp"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
@@ -34,11 +34,11 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="#A3BDED"
+        android:background="@color/Navigation_background"
         app:headerLayout="@layout/nav_header_main"
-        app:itemIconTint="#FFFFFF"
+        app:itemIconTint="@android:color/white"
         app:itemTextAppearance="@style/MtItemFont"
-        app:itemTextColor="#FFFFFF"
+        app:itemTextColor="@android:color/white"
         app:menu="@menu/activity_main_drawer" />
 
 </androidx.drawerlayout.widget.DrawerLayout>

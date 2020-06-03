@@ -10,4 +10,9 @@
     <!-- 캘린더 -->
     <color name="colorSelectedDate">#C8C8FF</color>
     <color name="color_GridLine">#66BDBDBD</color>
+
+    <!-- background color -->
+    <color name="Toolbar_background">#92A8D1</color>
+    <color name="Navigation_background">#A3BDED</color>
+
 </resources>
